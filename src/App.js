@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import PackageList from './components/PackageList/PackageList';
+import AppRouter from './AppRouter';
 
-function App() {
+function App () {
   return (
     <div className="App">
 
-      <PackageList/>
+      <AppRouter />
 
     </div>
   );
