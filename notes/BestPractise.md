@@ -1,3 +1,5 @@
+# 12 BestPractise Features for an React App:
+
 **1. Component-Based Architecture:
 Organize your application into small, reusable components.
 Follow the Single Responsibility Principle: Each component should do one thing and do it well.

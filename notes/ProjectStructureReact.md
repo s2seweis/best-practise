@@ -1,3 +1,5 @@
+# Project Structure in an React App:
+
 my-react-app/
   ├── node_modules/
   ├── public/

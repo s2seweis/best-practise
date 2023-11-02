@@ -4,19 +4,12 @@ Welcome to the Project Name! This project is a collection of best practices, exa
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Best Practices](#best-practices)
 - [Components](#components)
 - [Layouts](#layouts)
-- [Contributing](#contributing)
+- [Styles](#styles)
 - [License](#license)
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- Node.js and npm installed on your machine.
 
 ## Getting Started
 
@@ -56,6 +49,35 @@ export default ExampleComponent;
 
 ## Layouts
 
+Layouts in this project are designed to provide a consistent and user-friendly experience across your React application. They offer a structured way to arrange components and content on the screen. Each layout comes with predefined styles and structure, allowing you to focus on building your application features.
+
+### ExampleLayout
+
+Example of a layout and its usage:
+
+```jsx
+import React from 'react';
+
+const ExampleLayout = ({ children }) => {
+  return (
+    <div className="example-layout">
+      <header>Header</header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <main>{children}</main>
+      <aside>Side Content</aside>
+      <footer>Footer</footer>
+    </div>
+  );
+};
+
+export default ExampleLayout;
+```
 ### ExampleLayout
 
 Description of the layout and its usage.
