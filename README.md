@@ -4,16 +4,13 @@ Welcome to the Project Name! This project is a collection of best practices, exa
 
 ## Table of Contents
 
+- [Good to know for this project](#Good-to-know-for-this-project)
 - [Getting Started](#getting-started)
 - [Best Practices](#best-practices)
 - [Components](#components)
 - [Layouts](#layouts)
 - [Styles](#styles)
 - [License](#license)
-
-## Getting Started
-
-Follow these steps to get the project up and running:
 
 # Good to know for this project: 
 
