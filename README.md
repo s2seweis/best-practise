@@ -5,7 +5,7 @@ Welcome to the Project Name! This project is a collection of best practices, exa
 ## Table of Contents
 
 - [Styling](#styling)
-- [Eslint](#geslint)
+- [Eslint](#eslint)
 - [Getting Started](#getting-started)
 - [Best Practices](#best-practices)
 - [Components](#components)
