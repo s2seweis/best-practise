@@ -3,7 +3,7 @@
 Welcome to the Project Name! This project is a collection of best practices, examples, components, and layouts for building React applications. Whether you are a beginner or an experienced developer, this repository provides useful hints and examples to enhance your React development skills.
 
 <div align="center">
-<img src="awesome.jpg" alt="Example Image">
+<img src="awesome-1.png" alt="Example Image">
 </div>
 
 ## Table of Contents
