@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer-blog">
       <div className="container-footer">
 
-        <div className="footer-e1">
+        {/* <div className="footer-e1">
 
           <Link className="footer-e1-a" style={{}} to="/">
             More
@@ -23,7 +23,7 @@ const Footer = () => {
 
         <div className="footer-e3">
           <Link className="footer-e1-a" style={{}} to="/help">Contact</Link>
-        </div>
+        </div> */}
 
       </div>
 

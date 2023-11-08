@@ -1,0 +1,31 @@
+[
+    {
+      "column1": "imr",
+      "column2": "Import React"
+    },
+    {
+      "column1": "imrc",
+      "column2": "Import React/ Component"
+    },
+    {
+      "column1": "imrs",
+      "column2": "Import React / useState"
+    },
+    {
+      "column1": "imrse",
+      "column2": "Import React / useState useEffect"
+    },
+    {
+      "column1": "impt",
+      "column2": "Import PropTypes"
+    },
+    {
+      "column1": "ffc",
+      "column2": "Function Component"
+    },
+    {
+      "column1": "sfc",
+      "column2": "Stateless Function Component (Arrow function)"
+    }
+  ]
+  

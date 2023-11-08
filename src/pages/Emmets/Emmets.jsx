@@ -1,11 +1,13 @@
 import React from 'react';
-import './Emmets.css';
+import TableComponent from './EmmetsTable'; // Import your TableComponent
+import jsonData from './data.json'; // Import your JSON data file
 
 const Emmets = () => {
   return (
     <div>
-      <h1>Hello, I am a functional component!</h1>
-      <p>This is a functional component in React.</p>
+      <h1>Simple React Snippets</h1>
+      <h5>By Burke Holland</h5>
+      <TableComponent data={jsonData} />
     </div>
   );
 };
