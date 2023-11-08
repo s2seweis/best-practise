@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const UserRoutes = ({user}) => {
   // Check if user is logged in
-  const isLoggedIn = user !== null || undefined; // Modify this condition based on your authentication logic
+  const isLoggedIn = user === null || undefined; // Modify this condition based on your authentication logic
 
   // Alternatively, you can check user roles here if you have role-based authorization logic
   // const isAuthorized = user && (user.role === 'user' || user.role === 'admin');

@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {useSelector} from 'react-redux';
+import { useSelector } from 'react-redux';
 import { FaTimes } from 'react-icons/fa';
 import { SidebarData, SidebarDataAdmin } from './SideBarData/SideBarData';
 import SubMenu from './SideBarData/SubMenu';
-import Logout from '../../components/Auth/Logout/Logout';
+// import Logout from '../../components/Auth/Logout/Logout';
 import '../Sidebar/Sidebar.css';
 import './Sidebar.css';
 
@@ -15,6 +15,7 @@ const Sidebar = ({ isOpen, toggleSidebar, toggleHideSidebar }) => {
   return (
     <aside className={isOpen ? 'sidebar show-sidebar' : 'sidebar'}>
       <button
+        style={{ fontSize: '1rem' }}
         className="close-btn"
         alt="close"
         type="button"
@@ -31,7 +32,7 @@ const Sidebar = ({ isOpen, toggleSidebar, toggleHideSidebar }) => {
             return <SubMenu item={item} key={index} />;
           })}
         <div className="sidebar-social-links-margin">
-          <Logout />
+          {/* <Logout /> */}
         </div>
       </div>
     </aside>

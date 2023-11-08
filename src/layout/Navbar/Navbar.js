@@ -7,7 +7,7 @@ import {userDropdownItems, adminDropdownItems} from './DropDownItems'; // Import
 import Button from 'react-bootstrap/Button';
 import classnames from 'classnames';
 import Dropdown from 'react-bootstrap/Dropdown';
-import Logout from '../../components/Auth/Logout/Logout';
+// import Logout from '../../components/Auth/Logout/Logout';
 import pageLinks from '../../constants/links';
 import {useSelector} from 'react-redux';
 import './Navbar.css';
@@ -102,7 +102,7 @@ const Navbar = ({
                 style={{justifyContent: 'center', display: 'flex'}}
                 href="#/action-3"
               >
-                <Logout style={{justifyContent: 'center', display: 'flex'}} />
+                {/* <Logout style={{justifyContent: 'center', display: 'flex'}} /> */}
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>

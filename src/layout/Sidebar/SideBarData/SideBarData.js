@@ -14,17 +14,7 @@ export const SidebarData = [
     icon: <AiIcons.AiFillHome />,
   },
   {
-    title: 'Profile',
-    path: '/profile',
-    icon: <CgIcons.CgProfile />,
-  },
-  {
-    title: 'Help',
-    path: '/help',
-    icon: <GrIcons.GrContact />,
-  },
-  {
-    title: 'Take a Survey',
+    title: 'Content',
     // path: '/',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -32,17 +22,41 @@ export const SidebarData = [
 
     subNav: [
       {
-        title: 'Available Surveys',
-        path: '/available-surveys',
+        title: 'Eslint',
+        path: '/eslint',
         icon: <FcIcons.FcSurvey />,
         cName: 'sub-nav',
       },
       {
-        title: 'Taken Results',
+        title: 'Emmets',
+        path: '/emmets',
+        icon: <FcIcons.FcSurvey />,
+      },
+      {
+        title: 'Best Practise',
         path: '/taken-surveys',
         icon: <FcIcons.FcSurvey />,
-
       },
+      {
+        title: 'Git',
+        path: '/git',
+        icon: <FcIcons.FcSurvey />,
+      },
+      {
+        title: 'Packages',
+        path: '/packages',
+        icon: <FcIcons.FcSurvey />,
+      },
+      {
+        title: 'Extensions VS',
+        path: '/extensions',
+        icon: <FcIcons.FcSurvey />,
+      },
+      {
+        title: 'UI Elements',
+        path: '/ui-elements',
+        icon: <FcIcons.FcSurvey />,
+      }
     ],
   },
  

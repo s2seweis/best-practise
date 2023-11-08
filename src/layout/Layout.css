@@ -30,3 +30,13 @@
   position: relative;
 }
 
+.go-back{
+  margin: 115px 0px 0px 15px;
+  display: flex;
+}
+
+@media (max-width: 760px) {
+  .go-back {
+    margin: 85px 0px 0px 15px;
+  }
+}

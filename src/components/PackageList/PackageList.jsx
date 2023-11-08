@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Extensions = () => {
+const PackageList = () => {
 
   return (
     <div>
@@ -24,10 +24,9 @@ const Extensions = () => {
       <h4>styled-components</h4>
       <h4>survey-react</h4>
       <h4>survey-jquery</h4>
-
    
     </div>
   );
 };
 
-export default Extensions;
+export default PackageList;
