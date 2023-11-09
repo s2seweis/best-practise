@@ -1,43 +1,44 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
 import Sidebar from './Sidebar/Sidebar';
+import { FaArrowLeft } from 'react-icons/fa';
 import './Layout.css';
 
-const Layout = ({children}) => {
-  const [isOpen, setIsOpen] = useState (false);
-  const [sidebar, setSidebar] = useState (false);
-  const [visible, setVisible] = useState (true);
-  const [style, setStyle] = useState ('overlay');
+const Layout = ({ children }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [sidebar, setSidebar] = useState(false);
+  const [visible, setVisible] = useState(true);
+  const [style, setStyle] = useState('overlay');
 
-  useEffect (() => {
+  useEffect(() => {
     let lastScrollTop = window.scrollY;
 
     const handleScroll = () => {
       const currentScrollTop = window.scrollY;
-      setVisible (currentScrollTop <= 100 || currentScrollTop < lastScrollTop);
+      setVisible(currentScrollTop <= 100 || currentScrollTop < lastScrollTop);
       lastScrollTop = currentScrollTop <= 100 ? 0 : currentScrollTop;
     };
 
-    window.addEventListener ('scroll', handleScroll);
-    return () => window.removeEventListener ('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const toggleSidebar = () => {
-    setIsOpen (!isOpen);
+    setIsOpen(!isOpen);
     // Add your logic for setting styles if needed
-    setStyle ('overlay2');
+    setStyle('overlay2');
   };
 
   const toggleHideSidebar = () => {
-    setIsOpen (!isOpen);
+    setIsOpen(!isOpen);
     // Add your logic for setting styles if needed
-    setStyle ('overlay');
+    setStyle('overlay');
   };
 
   const goBack = () => {
-    window.history.back ();
+    window.history.back();
   };
 
   return (
@@ -62,8 +63,11 @@ const Layout = ({children}) => {
           toggleHideSidebar={toggleHideSidebar}
           visible={visible}
         />
-        <button className="go-back" onClick={goBack}>
+        {/* <button className="go-back" onClick={goBack}>
           Go Back
+        </button> */}
+        <button className="go-back" onClick={goBack}>
+          <FaArrowLeft />
         </button>
         {children}
       </div>

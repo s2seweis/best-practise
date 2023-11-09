@@ -1,0 +1,87 @@
+[
+  {
+    "column1": "rcc",
+    "column2": "React Class Component"
+  },
+  {
+    "column1": "rce",
+    "column2": "React Class Component Export"
+  },
+  {
+    "column1": "rcep",
+    "column2": "React Class Component Export with PropTypes"
+  },
+  {
+    "column1": "rpc",
+    "column2": "React PureComponent"
+  },
+  {
+    "column1": "rpcp",
+    "column2": "React PureComponent with PropTypes"
+  },
+  {
+    "column1": "rpce",
+    "column2": "React PureComponent with PropTypes Export"
+  },
+  {
+    "column1": "rccp",
+    "column2": "React Class Component with PropTypes"
+  },
+  {
+    "column1": "rfcp",
+    "column2": "React Functional Component with PropTypes"
+  },
+  {
+    "column1": "rfc",
+    "column2": "React Functional Component"
+  },
+  {
+    "column1": "rfce",
+    "column2": "React Functional Component Export"
+  },
+  {
+    "column1": "rafcp",
+    "column2": "React Arrow Functional Component with PropTypes"
+  },
+  {
+    "column1": "rafc",
+    "column2": "React Arrow Functional Component"
+  },
+  {
+    "column1": "rafce",
+    "column2": "React Arrow Functional Component Export"
+  },
+  {
+    "column1": "rmc",
+    "column2": "React Memo Component"
+  },
+  {
+    "column1": "rmcp",
+    "column2": "React Memo Component with PropTypes"
+  },
+  {
+    "column1": "rcredux",
+    "column2": "React Redux Class Component"
+  },
+  {
+    "column1": "reduxmap",
+    "column2": "Redux MapStateToProps and MapDispatchToProps"
+  },
+  {
+    "column1": "rnc",
+    "column2": "React Native Class Component"
+  },
+  {
+    "column1": "rncs",
+    "column2": "React Native Class Component with Styles"
+  },
+  {
+    "column1": "rnce",
+    "column2": "React Native Class Component Export"
+  },
+  {
+    "column1": "rncredux",
+    "column2": "React Native Redux Class Component"
+  }
+
+]

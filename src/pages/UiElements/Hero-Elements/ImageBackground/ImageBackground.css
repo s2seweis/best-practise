@@ -1,0 +1,23 @@
+.hero-container {
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .hero-image {
+    background-image: url('../../assets//bunny.png');
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .cta-button {
+    background: #fff;
+    color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  

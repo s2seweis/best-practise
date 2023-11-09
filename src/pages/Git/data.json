@@ -1,0 +1,82 @@
+[
+    {
+        "column1": "git init",
+        "column2": "Initializes a new Git repository in the current directory."
+    },
+    {
+        "column1": "git clone <repository-url>",
+        "column2": "Clones a remote repository to your local machine."
+    },
+    {
+        "column1": "git add <file>",
+        "column2": "Adds changes in a specific file to the staging area."
+    },
+    {
+        "column1": "git add . or git add --all",
+        "column2": "Adds all changes in the working directory to the staging area."
+    },
+    {
+        "column1": "git commit -m 'Commit message'",
+        "column2": "Commits the staged changes with a descriptive message."
+    },
+    {
+        "column1": "git status",
+        "column2": "Shows the status of changes as untracked, modified, or staged."
+    },
+    {
+        "column1": "git push origin <branch-name>",
+        "column2": "Pushes committed changes to a remote repository."
+    },
+    {
+        "column1": "git pull origin <branch-name>",
+        "column2": "Fetches changes from a remote repository and merges them into the current branch."
+    },
+    {
+        "column1": "git branch",
+        "column2": "Lists all branches in the repository. The current branch is highlighted with an asterisk."
+    },
+    {
+        "column1": "git branch <branch-name>",
+        "column2": "Creates a new branch with the specified name."
+    },
+    {
+        "column1": "git checkout <branch-name>",
+        "column2": "Switches to the specified branch."
+    },
+    {
+        "column1": "git merge <branch-name>",
+        "column2": "Merges changes from the specified branch into the current branch."
+    },
+    {
+        "column1": "git log",
+        "column2": "Shows a history of commits."
+    },
+    {
+        "column1": "git diff",
+        "column2": "Shows changes between commits, commit and working tree, etc."
+    },
+    {
+        "column1": "git stash",
+        "column2": "Temporarily saves changes that are not ready to be committed, allowing you to switch branches."
+    },
+    {
+        "column1": "git reset <file>",
+        "column2": "Unstages the specified file, but keeps the changes."
+    },
+    {
+        "column1": "git reset --hard HEAD",
+        "column2": "Discards all changes in the working directory and staging area."
+    },
+    {
+        "column1": "git remote -v",
+        "column2": "Shows the URLs of remote repositories associated with the current repository."
+    },
+    {
+        "column1": "git branch -d <branch-name>",
+        "column2": "Deletes the specified branch."
+    },
+    {
+        "column1": "git merge --abort",
+        "column2": "Aborts the current merge conflict resolution, reverting the changes."
+    }
+]

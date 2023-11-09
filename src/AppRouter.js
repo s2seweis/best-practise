@@ -8,10 +8,10 @@ import Home from './pages/Home/Home';
 import Eslint from './pages/Eslint/Eslint';
 import Emmets from './pages/Emmets/Emmets';
 import Extensions from './pages/Extensions/Extensions';
-import BestPractise from './pages/BestPractise/BestPractise';
-import Git from './pages/Git/Git';
+import BestPractice from './pages/BestPractice/BestPractice';
 import Packages from './pages/Packages/Packages';
 import UiElements from './pages/UiElements/UiElements';
+import Git from './pages/Git/Git.jsx';
 
 const AppRouter = () => {
   const user = null;
@@ -31,7 +31,7 @@ const AppRouter = () => {
           <Route path="/eslint" element={<Eslint />} />
           <Route path="/emmets" element={<Emmets />} />
           <Route path="/extensions" element={<Extensions />} />
-          <Route path="/best-practise" element={<BestPractise />} />
+          <Route path="/best-practice" element={<BestPractice />} />
           <Route path="/git" element={<Git />} />
           <Route path="/packages" element={<Packages />} />
           <Route path="/ui-elements" element={<UiElements />} />

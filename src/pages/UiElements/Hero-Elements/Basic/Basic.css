@@ -1,0 +1,19 @@
+.hero-container {
+    background: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 15px;
+  }
+  
+  .cta-button {
+    background: #fff;
+    color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  

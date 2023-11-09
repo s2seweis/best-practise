@@ -16,6 +16,7 @@
     "react-redux": "^7.2.4",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-scroll-to-top": "^3.0.0",
     "redux-firestore": "^2.0.1",
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
@@ -29,6 +30,15 @@
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0"
   },
   "browserslist": {
     "production": [

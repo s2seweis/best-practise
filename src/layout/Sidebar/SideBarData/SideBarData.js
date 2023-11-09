@@ -34,7 +34,7 @@ export const SidebarData = [
       },
       {
         title: 'Best Practise',
-        path: '/taken-surveys',
+        path: '/best-practice',
         icon: <FcIcons.FcSurvey />,
       },
       {
@@ -56,7 +56,7 @@ export const SidebarData = [
         title: 'UI Elements',
         path: '/ui-elements',
         icon: <FcIcons.FcSurvey />,
-      }
+      },
     ],
   },
  

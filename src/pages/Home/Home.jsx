@@ -11,7 +11,7 @@ const Home = () => {
         <Card title="Eslint" icon={<FaCode />} linkTo="/eslint" />
         <Card title="Emmets" icon={<FaRocket />} linkTo="/emmets" />
         <Card title="Extensions VS" icon={<FaPuzzlePiece />} linkTo="/extensions" />
-        <Card title="Best Practise" icon={<FaLightbulb />} linkTo="/best-practise" />
+        <Card title="Best Practice" icon={<FaLightbulb />} linkTo="/best-practice" />
         <Card title="Git" icon={<FaGitAlt />} linkTo="/git" />
         <Card title="Packages" icon={<FaBox />} linkTo="/packages" />
         <Card title="Ui Elements" icon={<RxComponent1 />} linkTo="/ui-elements" />

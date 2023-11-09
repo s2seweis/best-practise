@@ -1,0 +1,129 @@
+[
+    {
+      "column1": "react",
+      "column2": "React Core Library"
+    },
+    {
+      "column1": "react-dom",
+      "column2": "React DOM Library"
+    },
+    {
+      "column1": "react-router-dom",
+      "column2": "React Router DOM Library"
+    },
+    {
+      "column1": "redux",
+      "column2": "Redux State Management Library"
+    },
+    {
+      "column1": "react-redux",
+      "column2": "React Redux Binding"
+    },
+    {
+      "column1": "mobx",
+      "column2": "MobX State Management Library"
+    },
+    {
+      "column1": "formik",
+      "column2": "Form Library for React and React Native"
+    },
+    {
+      "column1": "react-query",
+      "column2": "Data Fetching and State Synchronization Library"
+    },
+    {
+      "column1": "axios",
+      "column2": "HTTP Client Library"
+    },
+    {
+      "column1": "styled-components",
+      "column2": "CSS-in-JS Library for React Components"
+    },
+    {
+      "column1": "material-ui/core",
+      "column2": "React Components Library"
+    },
+    {
+      "column1": "jest",
+      "column2": "JavaScript Testing Framework"
+    },
+    {
+      "column1": "react-testing-library",
+      "column2": "React Testing Utilities"
+    },
+    {
+      "column1": "enzyme",
+      "column2": "JavaScript Testing Utilities for React"
+    },
+    {
+      "column1": "d3",
+      "column2": "Data-Driven Visualization Library"
+    },
+    {
+      "column1": "socket.io-client",
+      "column2": "Real-Time Bidirectional Event-Based Communication"
+    },
+    {
+      "column1": "react-helmet",
+      "column2": "Document Head Manager for React"
+    },
+    {
+      "column1": "react-query/devtools",
+      "column2": "Devtools for React Query"
+    },
+    {
+        "column1": "express",
+        "column2": "Node.js Web Framework"
+      },
+      {
+        "column1": "mongoose",
+        "column2": "MongoDB Object Modeling Tool"
+      },
+      {
+        "column1": "firebase",
+        "column2": "Firebase SDK"
+      },
+      {
+        "column1": "body-parser",
+        "column2": "Node.js Body Parsing Middleware"
+      },
+      {
+        "column1": "nodemon",
+        "column2": "Utility that Automatically Restarts Node.js Server"
+      },
+      {
+        "column1": "cors",
+        "column2": "Node.js Middleware for Enabling Cross-Origin Requests"
+      },
+      {
+        "column1": "jsonwebtoken",
+        "column2": "JSON Web Token (JWT) Implementation for Node.js"
+      },
+      {
+        "column1": "bcrypt",
+        "column2": "Library for Hashing Passwords in Node.js"
+      },
+      {
+        "column1": "axios",
+        "column2": "Promise-based HTTP Client for Node.js"
+      },
+      {
+        "column1": "firebase-admin",
+        "column2": "Firebase Admin SDK for Node.js"
+      },
+      {
+        "column1": "firebase-functions",
+        "column2": "Firebase Functions SDK"
+      },
+      {
+        "column1": "react-scroll-to-top",
+        "column2": "scrolls to the top of a page when pressed the button"
+      }
+    ]
+    
+    
+    
+    
+    
+  
+  

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import {FaFacebookSquare, FaGithub} from 'react-icons/fa';
 // import {FaInstagram, FaTiktok, FaYoutube} from 'react-icons/fa';
 import './Footer.css';

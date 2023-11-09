@@ -1,11 +1,15 @@
 import React from 'react';
-import './Git.css';
+import TableComponent from './GitTable'; // Import your TableComponent
+import data1 from './data.json'; // Import your JSON data file
 
 const Git = () => {
   return (
     <div>
-      <h1>Hello, I am a functional component!</h1>
-      <p>This is a functional component in React.</p>
+      <h1>Git Commands</h1>
+      <TableComponent
+        data1={data1}
+      />
+
     </div>
   );
 };
