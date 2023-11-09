@@ -10,16 +10,9 @@ Welcome to the Project Name! This project is a collection of best practices, exa
 
 - [Styling](#styling)
 - [Eslint](#eslint)
-- [Getting Started](#getting-started)
-- [Best Practices](#best-practices)
-- [Components](#components)
-- [Layouts](#layouts)
+- [Content](#content)
+- [Contributing](#Contributing)
 - [License](#license)
-
-## Styling
-- In this approach, styles are imported as a module, and specific class names (styles.formContainer ...) are used for each element. 
-- These class names are scoped to this component, ensuring they won't conflict with styles in other parts of your application.
-- See Contact.js and Contact.css. 
 
 ## Eslint
 1. For seeing the errors in the browser:
@@ -30,6 +23,7 @@ Welcome to the Project Name! This project is a collection of best practices, exa
 ## Getting Started:
 
 In your project directory, create a new file named .env. Inside this file, define your Firebase configuration variables without quotes or any special characters.
+(for the case you want to use firebase, at the moment its needed to run this project)
 
 1.  Example .env file:
 
@@ -68,24 +62,19 @@ const firebaseConfig = {
 - npm start/ npm run start
 ```
 
-## Best Practices
+## Content
+1. Eslint
+2. Emmets
+3. Extensions VS
+4. Best Practice
+5. Git
+6. Packages
+7. Ui Elements 
 
-- **Folder Structure**: Organize your project files into meaningful directories such as `components`, `layouts`, `styles`, and `utils` for better code management.
-- **Component Naming**: Use descriptive and concise names for your components. Follow naming conventions like PascalCase for components and camelCase for variables and functions.
-- **State Management**: Utilize state management libraries like Redux or Context API for managing global states efficiently.
-- **Error Handling**: Implement error boundaries and proper error handling techniques to enhance the user experience and make debugging easier.
-- **Code Splitting**: Split your code into smaller chunks using React Lazy and Suspense to optimize loading times, especially for larger applications.
-- **Responsive Design**: Design your components and layouts to be responsive using CSS media queries or responsive design frameworks like Bootstrap or Material-UI.
-- **Testing**: Write unit tests and integration tests for your components and functions using testing libraries like Jest and React Testing Library.
-- **Git Workflow**: Follow a consistent Git branching strategy (e.g., GitFlow) and write clear and descriptive commit messages.
+### More Topics:
+8. Jest
+9. Code Reviews
 
-## Components
-
-Components form the building blocks of your React application. They encapsulate UI elements and functionality, making your code modular, reusable, and easy to maintain. In this project, you'll find a variety of components catering to different purposes. Each component follows best practices, ensuring clean and efficient code.
-
-## Layouts
-
-Layouts in this project are designed to provide a consistent and user-friendly experience across your React application. They offer a structured way to arrange components and content on the screen. Each layout comes with predefined styles and structure, allowing you to focus on building your application features.
 
 ## Contributing
 
