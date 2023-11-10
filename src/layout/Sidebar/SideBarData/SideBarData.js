@@ -57,6 +57,16 @@ export const SidebarData = [
         path: '/ui-elements',
         icon: <FcIcons.FcSurvey />,
       },
+      {
+        title: 'Jest',
+        path: '/jest',
+        icon: <FcIcons.FcSurvey />,
+      },
+      {
+        title: 'Boot & Tail',
+        path: '/bootstrap-tailwind',
+        icon: <FcIcons.FcSurvey />,
+      },
     ],
   },
  

@@ -1,6 +1,7 @@
 import React from 'react';
-import { FaCode, FaRocket, FaPuzzlePiece, FaLightbulb, FaGitAlt, FaBox } from 'react-icons/fa';
+import { FaCode, FaRocket, FaPuzzlePiece, FaLightbulb, FaGitAlt, FaBox, FaFlask, FaBootstrap} from 'react-icons/fa';
 import { RxComponent1 } from 'react-icons/rx';
+import { BiLogoTailwindCss } from 'react-icons/bi';
 import Card from '../../components/Card/Card';
 
 const Home = () => {
@@ -15,6 +16,8 @@ const Home = () => {
         <Card title="Git" icon={<FaGitAlt />} linkTo="/git" />
         <Card title="Packages" icon={<FaBox />} linkTo="/packages" />
         <Card title="Ui Elements" icon={<RxComponent1 />} linkTo="/ui-elements" />
+        <Card title="Bootstrap/Tailwind" icon={ <div><FaBootstrap/> <BiLogoTailwindCss/> </div>} linkTo="/bootstrap-tailwind" />
+        <Card title="Jest" icon={<FaFlask />} linkTo="/jest" />
         {/* Add your custom UI element icon here */}
       </div>
     </div>

@@ -70,7 +70,7 @@ const Navbar = ({
               fontSize: 'revert',
             }}
           >
-            Workbook
+            Notes
           </h2>
         </div>
         <div className="nav-links" style={{alignItems: 'center'}}>
@@ -87,15 +87,12 @@ const Navbar = ({
               Settings
             </Dropdown.Toggle>
             <Dropdown.Menu style={{width: '-webkit-fill-available'}}>
-              {dropdownItems.map (item => (
-                <Dropdown.Item
-                  key={item.id}
-                  style={{textAlign: 'center'}}
-                >
-                  <button>
-                    <Link style={{margin:'auto'}} to={item.url}>{item.text}</Link>
-                  </button>
-                  
+              {dropdownItems.map(item => (
+                <Dropdown.Item key={item.id} style={{}}>
+                  <Link to={item.url} style={{marginLeft:'10px'}}>
+                    {item.icon && <span style={{marginRight: '5px'}}>{item.icon}</span>}
+                    {item.text}
+                  </Link>
                 </Dropdown.Item>
               ))}
               <Dropdown.Item

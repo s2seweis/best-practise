@@ -12,6 +12,8 @@ import BestPractice from './pages/BestPractice/BestPractice';
 import Packages from './pages/Packages/Packages';
 import UiElements from './pages/UiElements/UiElements';
 import Git from './pages/Git/Git.jsx';
+import BootstrapTailwind from './pages/BootstrapTailwind/BootstrapTailwind.jsx';
+import Jest from './pages/Jest/Jest.jsx';
 
 const AppRouter = () => {
   const user = null;
@@ -35,6 +37,8 @@ const AppRouter = () => {
           <Route path="/git" element={<Git />} />
           <Route path="/packages" element={<Packages />} />
           <Route path="/ui-elements" element={<UiElements />} />
+          <Route path="/bootstrap-tailwind" element={<BootstrapTailwind />} />
+          <Route path="/jest" element={<Jest />} />
 
         </Routes>
 

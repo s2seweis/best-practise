@@ -1,17 +1,21 @@
-// dropdownItems.js
+import React from 'react';
+import { FaCode, FaCogs, FaUser } from 'react-icons/fa'; // Import the desired icons
+
 export const userDropdownItems = [
-  { id: 1, text: 'Eslint', url: '/eslint' },
-  { id: 1, text: 'Emmets', url: '/emmets' },
-  { id: 1, text: 'Best Practise', url: '/profile' },
-  { id: 1, text: 'Git', url: '/git' },
-  { id: 1, text: 'Packages', url: '/packages' },
-  { id: 1, text: 'Extensions', url: '/extensions' },
-  { id: 1, text: 'UI Elements', url: '/ui-elements' },
-  // { id: 2, text: 'Action 3', url: '#/action-3' },
+  { id: 1, text: 'Eslint', url: '/eslint', icon: <FaCode /> },
+  { id: 2, text: 'Emmets', url: '/emmets', icon: <FaCode /> },
+  { id: 3, text: 'Best Practise', url: '/best-practice', icon: <FaCode /> },
+  { id: 4, text: 'Git', url: '/git', icon: <FaCode /> },
+  { id: 5, text: 'Packages', url: '/packages', icon: <FaCode /> },
+  { id: 6, text: 'Extensions', url: '/extensions', icon: <FaCode /> },
+  { id: 7, text: 'UI Elements', url: '/ui-elements', icon: <FaCode /> },
+  { id: 8, text: 'Boot & Tail', url: '/bootstrap-tailwind', icon: <FaCode /> },
+  { id: 9, text: 'Jest', url: '/jest', icon: <FaCode /> },
   // Add more dropdown items as needed
 ];
+
 export const adminDropdownItems = [
-  { id: 1, text: 'Profile', url: '/profile' },
-  { id: 2, text: 'Admin', url: '/admin' },
+  { id: 1, text: 'Profile', url: '/profile', icon: <FaUser /> },
+  { id: 2, text: 'Admin', url: '/admin', icon: <FaCogs /> },
   // Add more dropdown items as needed
 ];
